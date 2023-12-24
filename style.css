@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+   font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.bg-dark {
+   background-color: #345c84; /* Change this to your desired background color */
+}
+
+.text-secondary {
+   color: #082b4a; /* Change this to your desired text color */
+}
+
+.py-5 {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+}
+
+/* Profile image styles */
+.profile img {
+   border-radius: 50%;
+   margin-bottom: 1rem;
+}
+
+/* Text styles */
+.display-5 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.fs-5 {
+   font-size: 1.25rem;
+   line-height: 1.6;
+}
+
+/* Different colored sections */
+
+/* Education section */
+.education {
+   background-color: #bb5e41; /* Change this to your desired color */
+   color: #4d2600; /* Change this to your desired text color */
+   padding: 20px;
+}
+
+/* Work Experience section */
+.experience {
+   background-color: #079626; /* Change this to your desired color */
+   color: #003333; /* Change this to your desired text color */
+   padding: 20px;
+}
+
+/* Skills section */
+.skills {
+   background-color: #f2c82f; /* Change this to your desired color */
+   color: #8b4513; /* Change this to your desired text color */
+   padding: 20px;
+}
